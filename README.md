@@ -24,3 +24,10 @@ paragraph_extraction.ipynb is a "long" notebook for paragraph extraction, includ
 
 ## Impact annotation (impact_annotation)
 Please read the codebook IMPACT-Codebook-release.pdf.
+
+## Impact classification (impact_classification)
+For Llama models, we used replicate's API. Please see the code at: https://replicate.com/meta/llama-2-70b-chat/api
+
+For ChatGPT and GPT-4, we used OpenAI's API. Please see the code at: https://platform.openai.com/docs/guides/text-generation
+
+The most import hyperparameter is temperature. We set it as 0.99 for Llama models and GPT models.
