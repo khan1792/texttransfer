@@ -36,4 +36,8 @@ The most import hyperparameter is temperature. We set it as 0.99 for Llama model
 
 ### Fine-tuning
 
+annotated_sentences.csv stores the sentences with impact labels.
 
+bert_finetuning.py is a python file with the code for fine-tuning the German BERT model for impact classification.
+
+llama_finetuning.py is a python file with the code for fine-tuning the Llama2-8b-chat model for impact classification.
