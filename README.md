@@ -5,13 +5,12 @@ We first propose a framework for automatically assessing the impact of scientifi
 
 This is a repository to save datasets and codes related to this project.
 
-## Impact-relevant paragraph detection
+## Impact-relevant passage detection (passage_detection)
 Please read and cite the following paper if you would like to use the data:
 
 Becker M., Han K., Werthmann A., Rezapour R., Lee H., Diesner J., and Witt A. (2024). Detecting Impact Relevant Sections in Scientific Research. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING).
 
 You can find the data at https://doi.org/10.13012/B2IDB-9934303_V1.
-
 
 ### Pdf to Text
 Please use pdf_to_text.ipynb to convert pdf files to txt files.
@@ -22,3 +21,6 @@ Data cleaning and restructuring.ipynb is a notebook for data cleaning and restru
 
 ### paragraph extraction
 paragraph_extraction.ipynb is a "long" notebook for paragraph extraction, including rule-based extraction and random forest model training and prediction, as well as datasets merging (TT-I + TT-II).
+
+## Impact annotation (impact_annotation)
+Please read the codebook IMPACT-Codebook-release.pdf.
