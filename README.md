@@ -41,3 +41,5 @@ annotated_sentences.csv stores the sentences with impact labels.
 bert_finetuning.py is a python file with the code for fine-tuning the German BERT model for impact classification.
 
 llama_finetuning.py is a python file with the code for fine-tuning the Llama2-8b-chat model for impact classification.
+
+prompts.rtf documents all prompts for zero-shot and few-shot prompting for Llama and GPT models.
